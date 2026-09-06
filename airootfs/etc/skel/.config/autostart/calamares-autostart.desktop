@@ -1,7 +1,0 @@
-[Desktop Entry]
-Type=Application
-Name=Calamares Installer
-Exec=sudo -E calamares
-Hidden=false
-NoDisplay=false
-X-GNOME-Autostart-enabled=true

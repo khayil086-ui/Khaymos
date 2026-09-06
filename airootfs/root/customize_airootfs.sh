@@ -6,11 +6,11 @@ echo "liveuser:liveuser" | chpasswd
 groupadd -r autologin
 gpasswd -a liveuser autologin
 sed -i 's/^# %wheel ALL=(ALL:ALL) ALL/%wheel ALL=(ALL:ALL) ALL/' /etc/sudoers
+sed -i 's|^c1:.*|c1:12345:respawn:/sbin/agetty --autologin liveuser --noclear tty1 38400 linux|' /etc/inittat
 
 rc-update add dbus default
 rc-update add elogind default
 rc-update add NetworkManager
-rc-update add sddm default
 rc-update add udev sysinit
 rc-update add udev-trigger sysinit
 

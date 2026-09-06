@@ -25,4 +25,5 @@ file_permissions=(
   ["/etc/skel/.config/autostart/sync-pacman-db.desktop"]="0:0:0755"
   ["/usr/local/bin/init-pacman"]="0:0:0755"
   ["/etc/init.d/init-pacman"]="0:0:0755"
+  ["/etc/calamares/scripts/fix-mkinitcpio-preset.sh"]="0:0:0755"
 )

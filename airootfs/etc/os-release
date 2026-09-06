@@ -5,3 +5,6 @@ ID_LIKE=artix arch
 BUILD_ID=rolling
 ANSI_COLOR="38;2;23;147;209"
 LOGO=khaymos
+HOME_URL="https://github.com/khayil086-ui/Khaymos-KDE"
+SUPPORT_URL=
+BUG_REPORT_URL=
